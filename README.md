@@ -27,6 +27,10 @@ This repository contains an automated testing framework that validates APIs and 
   - Generates execution logs and validation summaries.  
   - Clear messaging for mismatches and failures.
 
+- **JSON Comparison**  
+  - Deep compare two json files.  
+  - Object to Object json files comparison.
+
 # Example Test Flow
 1. Send GET API request: Save the api response in json file: APIAutomation\jsonFiles\onpremGetApiResponse.json
 2. Send ON PREMISE POST API Request: Use above Json file as request body to this POST API and save api response in json file: APIAutomation\jsonFiles\onpremPostApiResponse.json
