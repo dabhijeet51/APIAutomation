@@ -1,0 +1,27 @@
+[
+  {
+    "onpremPath": "response.metaCode",
+    "awsPath": "response.metaCode",
+    "alias": "metaCode"
+  },
+  {
+    "onpremPath": "testDataItems[0].itemInfo.itemUniqueId",
+    "awsPath": "testDataItems[0].itemInfo.itemUniqueId",
+    "alias": "itemUniqueId"
+  },
+  {
+    "onpremPath": "testDataItems[0].itemInfo.files[0].fileRefId",
+    "awsPath": "testDataItems[0].itemInfo.files[0].fileRefId",
+    "alias": "fileRefId"
+  },
+  {
+    "onpremPath": "testDataItems[0].itemInfo.inputCategory",
+    "awsPath": "testDataItems[0].itemInfo.files[0].inputCategory",
+    "alias": "inputCategory"
+  },
+  {
+    "onpremPath": "testResults[0].resultPayload.configKey",
+    "awsPath": "testResults[0].resultPayload.configKey",
+    "alias": "configKey"
+  }
+]
